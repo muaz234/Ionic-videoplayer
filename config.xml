@@ -3,7 +3,7 @@
     <name>video2</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
-    <content src="index.html" />
+    <content original-src="index.html" src="http://192.168.0.6:8111" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -81,4 +81,15 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="^2.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
+    <plugin name="cordova-plugin-media-capture" spec="~3.0.2" />
+    <plugin name="cordova-plugin-media" spec="~5.0.2" />
+    <plugin name="cordova-plugin-file" spec="~6.0.1" />
+    <plugin name="cordova-sqlite-storage" spec="~2.3.3" />
+    <plugin name="com.moust.cordova.videoplayer" spec="https://github.com/moust/cordova-plugin-videoplayer" />
+    <allow-navigation href="http://192.168.0.6:8107" />
+    <allow-navigation href="http://192.168.0.6:8108" />
+    <allow-navigation href="http://192.168.0.6:8109" />
+    <allow-navigation href="http://192.168.0.6:8110" />
+    <allow-navigation href="http://192.168.0.6:8111" />
+    <engine name="android" spec="~7.0.0" />
 </widget>
